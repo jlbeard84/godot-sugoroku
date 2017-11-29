@@ -12,6 +12,10 @@ config_version=3
 
 run/main_scene="res://Scenes/HelloWorldLabel.tscn"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "vnen.tiled_importer" )
+
 [gdnative]
 
 singletons=[  ]
